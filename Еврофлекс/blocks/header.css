@@ -1,0 +1,259 @@
+.header {
+    background-image: url(./../img/header/background.jpg);
+    width: 1680px;
+    height: 608px;
+    position: relative;
+}
+
+.header-container {
+
+   
+    display: flex;
+    
+}
+.header-logo {
+
+    padding-top: 33px;
+    padding-left: 250px;
+
+
+}
+.header-logo-text {
+    position: absolute;
+left: 313px;
+top: 63px;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+align-items: center;
+color: #4F4F4F;
+
+}
+.header-nav {
+    margin-left: 113px;
+}
+.header-nav ul {
+display: flex;
+padding-top: 43px;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+align-items: center;
+color: #222222;
+transition: opacity 0.2s ease;
+}
+.header-nav li:hover {
+    opacity: 0.8;
+    text-shadow: 0px 0px 2px black;
+    
+}
+.header-nav li + li {
+padding-left: 26px;
+}
+.back-call-header {
+    margin-left: 71px;
+    margin-top: 27px;
+}
+.number {
+    margin-bottom: 10px;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+align-items: center;
+color: #444444;
+}
+.btn-back-call {
+
+    margin-left: 9px;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+
+
+ background: #FF5C5C;
+border-radius: 2px;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.header-main {
+    margin-top: 72px;
+    margin-left: 250px;
+    max-width: 654px;
+}
+.header-main h2 {
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+align-items: center;
+color: #444444;
+padding-bottom: 60px;
+}
+.header-main h3 {
+font-weight: 400;
+font-size: 23px;
+line-height: 32px;
+align-items: center;
+color: #444444;
+}
+.header-card-container {
+    max-width: 587px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-card {
+    width: 126px;
+    margin-top: 40px;
+}
+.header-card img {
+    padding-left: 12.46px;
+    padding-right: 13.57px;
+}
+
+.header-card p {
+    margin-top: 20px;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+align-items: center;
+text-align: center;
+color: #444444;
+}
+.three-card-header {
+    width: 172px;
+}
+.three-img-card-header {
+    margin-left: 30px;
+}
+
+
+.header-form {
+    position: absolute;
+    left: 1000px;
+    top: 123px;
+max-width: 430px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
+border-radius: 2px;
+}
+.container-form {
+    max-width: 430px;
+    height: 513px;
+    padding-left: 65px;
+    padding-top: 50px;
+}
+.container-form h2 {
+    padding-bottom: 28px;
+}
+.container-form h3 {
+    padding-bottom: 8px;
+font-weight: 700;
+font-size: 23px;
+line-height: 32px;
+align-items: center;
+color: #444444;
+
+
+}
+.container-form p {
+    padding-bottom: 30px;
+    width: 300px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+ color: #80A2C5;  
+}
+.form {
+
+}
+.form h2 {
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+align-items: center;
+color: #444444;
+}
+.form-text {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+background: #EDEFF2;
+box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.12);
+border-radius: 2px;
+
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+color: #939599;
+
+}
+.number-form {
+    margin-bottom: 35px;
+    width: 300px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    color: #939599;
+    
+
+background: #EDEFF2;
+box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.12);
+border-radius: 2px;
+}
+.btn-submit {
+    padding-left: 32px;
+    padding-top: 18px;
+    padding-right: 32px;
+    padding-bottom: 15px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #FFFFFF;
+cursor: pointer;
+
+background: #FF5C5C;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
+border-radius: 2px;
+
+transition: opacity 0.2s ease;
+}
+.btn-submit:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+.copyright {
+    display: flex;
+}
+.copyright p {
+    padding-top: 22px;
+    padding-bottom: 0;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+align-items: center;
+color: #BCBFC4;
+}
+.copyright img {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+
+

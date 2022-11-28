@@ -1,0 +1,28 @@
+.btn-back-call, a.btn-back-call {
+    display: inline-block;
+
+    margin-left: 9px;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+
+
+ background: #FF5C5C;
+border-radius: 2px;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+transition: opacity 0.2s ease;
+}
+.btn-back-call:hover, a.btn-back-call:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+.btn-big, a.btn-big {
+    min-height: 65px;
+} 

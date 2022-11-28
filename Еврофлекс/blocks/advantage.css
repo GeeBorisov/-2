@@ -1,0 +1,40 @@
+.advantage {
+}
+.advantage-header {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.advantage-header h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    color: #646566;
+}
+.advantage-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    column-gap: 20px;
+    row-gap: 80px;
+    justify-content: center;
+}
+.advantage-card {
+    /* width: 280px; */
+    text-align: center;
+    margin-bottom: 115px;
+}
+.advantage-card img {
+padding-bottom: 20px;
+}
+.advantage-card p {
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #444444;
+}

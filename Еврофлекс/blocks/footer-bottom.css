@@ -1,0 +1,18 @@
+.footer-bottom {
+    background-image: url(./../img/footer-bottom/footer-bottom.svg);
+}
+
+.footer-bottom-text {
+
+    padding-top: 54px;
+    padding-bottom: 53px;
+    padding-left: 250px;
+}
+.footer-bottom-text p {
+    width: 780px;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+align-items: center;
+color: #4F4F4F;
+}
